@@ -1,4 +1,4 @@
-# :construction: README customizado em construção ! :construction:
+# Trybe Exercise - Books To Scrape
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
@@ -11,3 +11,6 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
+First web scraping exercise. Created a code that scrapes a page from the catalogue of `books.toscrape.com` and returns the title, price, cover and description of the book. My code is in `src/scrape.py`.
+
+Coded in Python with parsel and requests libraries. 
