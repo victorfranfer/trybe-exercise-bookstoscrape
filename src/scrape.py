@@ -17,9 +17,10 @@ def scrape(url: str) -> str:
     description = selector.css("#product_description ~ p::text").get()
     suffix = "...more"
     if description.endswith(suffix):
-        description = description[: -len(suffix)]
+        description = description[:-len(suffix)]
     cover = URL_BASE + selector.css("#product_gallery img::attr(src)").get()
-    print(title, price, description, cover, sep=",")
+    results = [title, price, description, cover]
+    return results
 
 
 scrape(FULL_URL)
